@@ -3,32 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahasiswa Sistem Informasi</title>
+    <title>Informasi Mahasiswa Sistem Informasi</title>
 </head>
 
 <body>
 
-    <h1>Mahasiswa Sistem Informasi</h1>
+    <header>
+        <h1>Informasi Mahasiswa Sistem Informasi</h1>
+        <p>Informasi tentang kegiatan mahasiswa Sistem Informasi.</p>
+    </header>
 
-    <p>
-        Selamat datang di halaman informasi mahasiswa
-        Program Studi Sistem Informasi.
-    </p>
+    <nav aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
 
-    <h2>Tentang Sistem Informasi</h2>
+    <main>
 
-    <p>
-        Sistem Informasi mempelajari bagaimana teknologi digunakan
-        untuk mengelola data dan informasi dalam sebuah organisasi.
-    </p>
+        <article id="tentang">
+            <h2>Tentang Sistem Informasi</h2>
 
-    <h2>Kegiatan Mahasiswa</h2>
+            <p>
+                Sistem Informasi mempelajari penggunaan teknologi
+                untuk mengelola data dan informasi.
+            </p>
+        </article>
 
-    <ul>
-        <li>Perkuliahan</li>
-        <li>Praktikum</li>
-        <li>Kegiatan organisasi</li>
-    </ul>
+        <section id="kegiatan">
+            <h2>Kegiatan Mahasiswa</h2>
+
+            <h3>Kegiatan Akademik</h3>
+            <p>
+                Mahasiswa mengikuti perkuliahan, praktikum,
+                diskusi, dan kegiatan akademik lainnya.
+            </p>
+
+            <h3>Kegiatan Organisasi</h3>
+            <p>
+                Mahasiswa juga dapat mengikuti organisasi
+                untuk mengembangkan kemampuan dan kerja sama.
+            </p>
+        </section>
+
+        <section id="kontak">
+            <h2>Formulir Kontak</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama"
+                           autocomplete="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"
+                           autocomplete="email" required>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" required></textarea>
+                </p>
+
+                <button type="submit">Kirim</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Informasi Mahasiswa Sistem Informasi</p>
+    </footer>
 
 </body>
 </html>
