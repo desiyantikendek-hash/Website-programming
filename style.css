@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header, nav, main, footer {
+    max-width: 900px;
+    margin: auto;
+}
+
+nav {
+    margin: 20px auto;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+textarea,
+button {
+    font-size: 16px;
+    padding: 8px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 3px solid black;
+    outline-offset: 2px;
+}
