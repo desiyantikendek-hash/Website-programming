@@ -128,10 +128,7 @@ button:focus-visible {
     margin-block-end: var(--space-2);
 }
 
-P {
-    color: green;
-}
-
-.card p {
-    color: purple;
+a:focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 3px;
 }
